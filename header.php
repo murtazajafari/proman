@@ -12,9 +12,9 @@
         gtag('config', 'UA-52115242-14');
     </script>
     <meta charset="utf-8">
-    <title>Pipeline Project Management Bootstrap Theme</title>
+    <title>Unknown project</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A project management Bootstrap theme by Medium Rare">
+    <meta name="description" content="Not yet selected">
     <link href="assets/img/favicon.ico" rel="icon" type="image/x-icon">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Gothic+A1" rel="stylesheet">
@@ -40,21 +40,38 @@
                             <img alt="Image" src="assets/img/avatar-male-4.jpg" class="avatar" />
                         </a>
                         <div class="dropdown-menu dropdown-menu-right">
-                            <a href="nav-side-user.html" class="dropdown-item">Profile</a>
-                            <a href="utility-account-settings.html" class="dropdown-item">Account Settings</a>
-                            <a href="#" class="dropdown-item">Log Out</a>
+                            <a href="user.php" class="dropdown-item">Profile</a>
+                            <a href="account-setting.php" class="dropdown-item">Account Settings</a>
+                            <a href="login.php" class="dropdown-item">Log Out</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="collapse navbar-collapse flex-column" id="navbar-collapse">
+                <span class="text-large text-muted">Quick Links</span>
                 <ul class="navbar-nav d-lg-block">
 
                     <li class="nav-item">
 
-                        <a class="nav-link" href="index.html">Overview</a>
+                        <a class="nav-link" href="user.php">User</a>
 
                     </li>
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="task.php">Tasks</a>
+
+                    </li>
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="team.php">Teams</a>
+
+                    </li>
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="project.php">Projects</a>
+
+                    </li>
+                    
 
                     <li class="nav-item">
 
@@ -80,29 +97,11 @@
 
                     </li>
 
-                    <li class="nav-item">
-
-                        <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false"
-                            data-target="#submenu-3" aria-controls="submenu-3">Components</a>
-                        <div id="submenu-3" class="collapse">
-                            <ul class="nav nav-small flex-column">
-
-                                <li class="nav-item">
-                                    <a class="nav-link" href="components-bootstrap.html">Bootstrap</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link" href="components-pipeline.html">Pipeline</a>
-                                </li>
-
-                            </ul>
-                        </div>
-
-                    </li>
+                    
 
                     <li class="nav-item">
 
-                        <a class="nav-link" href="documentation/index.html">Documentation</a>
+                        <a class="nav-link" href="board.php">Board</a>
 
                     </li>
 
@@ -114,24 +113,7 @@
 
                 </ul>
                 <hr>
-                <div class="d-none d-lg-block w-100">
-                    <span class="text-small text-muted">Quick Links</span>
-                    <ul class="nav nav-small flex-column mt-2">
-                        <li class="nav-item">
-                            <a href="nav-side-team.html" class="nav-link">Team Overview</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="nav-side-project.html" class="nav-link">Project</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="nav-side-task.html" class="nav-link">Single Task</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="nav-side-kanban-board.html" class="nav-link">Kanban Board</a>
-                        </li>
-                    </ul>
-                    <hr>
-                </div>
+                
                 <div>
                     <form>
                         <div class="input-group input-group-dark input-group-round">
@@ -150,9 +132,9 @@
                             Add New
                         </button>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Team</a>
-                            <a class="dropdown-item" href="#">Project</a>
-                            <a class="dropdown-item" href="#">Task</a>
+                            <a class="dropdown-item" href="team.php">Team</a>
+                            <a class="dropdown-item" href="project.php">Project</a>
+                            <a class="dropdown-item" href="task.php">Task</a>
                         </div>
                     </div>
                 </div>
