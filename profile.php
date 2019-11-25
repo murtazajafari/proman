@@ -4,11 +4,9 @@
             <div class="navbar bg-white breadcrumb-bar">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">Overview</a>
-                        </li>
-                        <li class="breadcrumb-item"><a href="pages-app.html#">App Pages</a>
-                        </li>
-                        <li class="breadcrumb-item active" aria-current="page">User</li>
+                        <li class="breadcrumb-item"><a href="">Overview</a></li>
+                        
+                        <li class="breadcrumb-item active" aria-current="page">Profile</li>
                     </ol>
                 </nav>
 
@@ -33,8 +31,8 @@
                             <div class="media">
                                 <img alt="Image" src="assets/img/avatar-male-4.jpg" class="avatar avatar-lg mt-1" />
                                 <div class="media-body ml-3">
-                                    <h1 class="mb-0">David Whittaker</h1>
-                                    <p class="lead">Interface designer and front-end developer</p>
+                                    <h1 class="mb-0">Murtaza JAFARI</h1>
+                                    <p class="lead">Frontend and Backend Developer</p>
                                 </div>
                             </div>
                         </div>

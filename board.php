@@ -13,7 +13,7 @@
             </ol>
         </nav>
 
-        <div class="dropdown">
+        <!-- <div class="dropdown">
             <button class="btn btn-round" role="button" data-toggle="dropdown" aria-expanded="false">
                 <i class="material-icons">settings</i>
             </button>
@@ -27,7 +27,7 @@
                 <a class="dropdown-item text-danger" href="#">Archive</a>
 
             </div>
-        </div>
+        </div> -->
 
     </div>
     <div class="container-kanban">

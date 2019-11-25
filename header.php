@@ -40,7 +40,7 @@
                             <img alt="Image" src="assets/img/avatar-male-4.jpg" class="avatar" />
                         </a>
                         <div class="dropdown-menu dropdown-menu-right">
-                            <a href="user.php" class="dropdown-item">Profile</a>
+                            <a href="profile.php" class="dropdown-item">Profile</a>
                             <a href="account-setting.php" class="dropdown-item">Account Settings</a>
                             <a href="login.php" class="dropdown-item">Log Out</a>
                         </div>
@@ -52,44 +52,44 @@
                 <ul class="navbar-nav d-lg-block">
 
                     <li class="nav-item">
-
-                        <a class="nav-link" href="user.php">User</a>
-
+                        <a class="nav-link" href="profile.php">Profile</a>
                     </li>
                     <li class="nav-item">
-
-                        <a class="nav-link" href="task.php">Tasks</a>
-
+                        <a class="nav-link" href="account-setting.php">Account Setting</a>
                     </li>
                     <li class="nav-item">
-
-                        <a class="nav-link" href="team.php">Teams</a>
-
+                        <a class="nav-link" href="board.php">Board</a>
                     </li>
                     <li class="nav-item">
-
-                        <a class="nav-link" href="project.php">Projects</a>
-
+                        <a class="nav-link" href="chat.php">Chat</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="error.php">Error</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="single-project.php">Single Project</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="task.php">Task</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.php">Team</a>
                     </li>
                     
-
+                    
                     <li class="nav-item">
 
                         <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false"
-                            data-target="#submenu-2" aria-controls="submenu-2">Pages</a>
+                            data-target="#submenu-2" aria-controls="submenu-2">Authintication</a>
                         <div id="submenu-2" class="collapse">
                             <ul class="nav nav-small flex-column">
 
                                 <li class="nav-item">
-                                    <a class="nav-link" href="pages-app.html">App Pages</a>
+                                    <a class="nav-link" href="login.php">Login</a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="nav-link" href="pages-utility.html">Utility Pages</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link" href="pages-layouts.html">Layouts</a>
+                                    <a class="nav-link" href="signup.php">Sign up</a>
                                 </li>
 
                             </ul>
@@ -97,19 +97,6 @@
 
                     </li>
 
-                    
-
-                    <li class="nav-item">
-
-                        <a class="nav-link" href="board.php">Board</a>
-
-                    </li>
-
-                    <li class="nav-item">
-
-                        <a class="nav-link" href="documentation/changelog.html">Changelog</a>
-
-                    </li>
 
                 </ul>
                 <hr>
